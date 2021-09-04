@@ -1,4 +1,4 @@
-FROM riz4d/whats-bot:latest
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/riz4d/Whats-Bot /root/Whats-Bot
 WORKDIR /root/Whats-Bot/
