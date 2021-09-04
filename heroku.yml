@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /toxiccoder/Dockerfile
+run:
+   worker: npm start
