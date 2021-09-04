@@ -1,5 +1,5 @@
 {
-  "name": "Toxic Mol",
+  "name": "Toxic-Mol",
   "version": "1.3.2",
   "description": "ToxicMol project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./Whats-Bot/bot.js",
@@ -17,7 +17,7 @@
     "asena",
     "ToxicMol"
   ],
-  "author": "rizad [Toxic Coder]",
+  "author": "rizad[Toxic Coder]",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/riz4d/Whats-Bot/issues"
