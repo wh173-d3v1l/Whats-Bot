@@ -6,7 +6,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@riz4d/indexjs#index.js)
 ##
 <details>
-    <summary>License</b></summary><br/>
+    <summary><h1>License</h1></b></summary><br/>
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -195,7 +195,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright [2021] [Muhammed rizad]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
