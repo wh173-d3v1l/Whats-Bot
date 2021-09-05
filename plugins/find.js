@@ -12,7 +12,7 @@ const Lang = Language.getString('scrapers');
 
 let td = conf.WORKTYPE == 'public' ? false : true
 
-Asena.addCommand({pattern: 'find', fromMe: td, desc: Lang.FINDS_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'find', fromMe: false, desc: Lang.FINDS_DESC}, (async (message, match) => {
     if (message.reply_message === false) return await message.client.sendMessage(message.jid, Lang.NEED_FAUDIO, MessageType.text);
     var filePath = await message.client.downloadAndSaveMediaMessage({
         key: {
