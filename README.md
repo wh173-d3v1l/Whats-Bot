@@ -6,7 +6,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@riz4d/indexjs#index.js)
 ##
 <details>
-    <summary><h1>ʟɪᴄᴇɴsᴇ</h1></b></summary><br/>
+    <summary>ʟɪᴄᴇɴsᴇ</b></summary><br/>
                                                         Apache License
                                                   Version 2.0, January 2004
                                                http://www.apache.org/licenses/
