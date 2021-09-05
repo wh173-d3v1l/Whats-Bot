@@ -6,7 +6,7 @@ const Language = require('../language');
 const Lang = Language.getString('tagall');
 const SLang = Language.getString('scrapers');
 
-if (Config.WORKTYPE == 'private') {
+if (Config.WORKTYPE == 'public') {
 
 async function checkImAdmin(message, user = message.client.user.jid) {
     var grup = await message.client.groupMetadata(message.jid);
