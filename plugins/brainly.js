@@ -20,11 +20,11 @@ Asena.addCommand({ pattern: 'brainly ?(.*)', fromMe: false, desc: BRAINLY_DESC, 
           .then(async (response) => {
             const {
               soal,
-              Ans,
+              Answer,
             } = response.data
 
             const msg = `*Question Brainly:* ${soal}
-*Answer Brainly:* ${Ans.replace(/1Question/g, '*(1) Question*').replace(/2Question/g, '*(2) Question*').replace(/3Question/g, '*(3) Question*').replace(/Answer/g, '*Answer*').replace(/Brainly Found/g, '')}`
+*Answer Brainly:* ${Answer.replace(/1Question/g, '*(1) Question*').replace(/2Question/g, '*(2) Question*').replace(/3Question/g, '*(3) Question*').replace(/Answer/g, '*Answer*').replace(/Brainly Found/g, '')}`
             await message.client.sendMessage(message.jid, msg, MessageType.text)
            })
       },
