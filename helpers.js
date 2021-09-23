@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *Toxic Bot*:  ```" + msg + "```"
+    return "✅ *LILLY [Dev: rizad]*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *Toxic Bot*:  ```" + msg + "```"
+    return "🛑 *LILLY [Dev: rizad]*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *Toxic Bot*:  ```" + msg + "```"
+    return "⏺️ *LILLY [Dev: rizad]*:  ```" + msg + "```"
 }
 
 
