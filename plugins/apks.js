@@ -32,8 +32,8 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-   Asena.addCommand({pattern: 'riza', fromMe: false}, (async (message, match) => {
-      await message.sendMessage('GOLD MODZ\n');
+   Asena.addCommand({pattern: 'rizad', fromMe: false}, (async (message, match) => {
+      await message.sendMessage('MASTER IS OFFLINE\n');
    }));
     
    Asena.addCommand({pattern: 'fatp', fromMe: false}, (async (message, match) => {        
