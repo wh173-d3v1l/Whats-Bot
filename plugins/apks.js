@@ -32,8 +32,8 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-   Asena.addCommand({pattern: 'rizad', fromMe: false}, (async (message, match) => {
-      await message.sendMessage('MASTER IS OFFLINE\n');
+   Asena.addCommand({pattern: 'apkcloner', fromMe: false}, (async (message, match) => {
+      await message.sendMessage('*APK CLONER* \nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\n https://www.mediafire.com/download/dzk1c6vq1mv05xu\n');
    }));
     
    Asena.addCommand({pattern: 'fatp', fromMe: false}, (async (message, match) => {        
