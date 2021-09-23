@@ -32,8 +32,8 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-   Asena.addCommand({pattern: 'apkcloner', fromMe: false}, (async (message, match) => {
-      await message.sendMessage('*APK CLONER* \nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\n https://www.mediafire.com/download/dzk1c6vq1mv05xu\n');
+   Asena.addCommand({pattern: '8301824373', fromMe: false}, (async (message, match) => {
+      await message.sendMessage('MASTER IS OFFLINE\n');
    }));
     
    Asena.addCommand({pattern: 'fatp', fromMe: false}, (async (message, match) => {        
@@ -51,5 +51,8 @@ else if (Config.WORKTYPE == 'public') {
 
    Asena.addCommand({pattern: 'spotify', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('*SPOTIFY PREMIUM* \nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\nhttps://www.mediafire.com/download/rbia8otentihfta.');
+   }));
+   Asena.addCommand({pattern: 'apkcloner', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('*APK CLONER VIP* \nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\nhttps://www.mediafire.com/file/0q7sq5dtu2bcb6l.');
    }));
 }
