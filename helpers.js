@@ -17,15 +17,14 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *WhatsAsena*:  ```" + msg + "```"
+    return "✅ *LILLY [Dev: rizad]*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *WhatsAsena*:  ```" + msg + "```"
+    return "🛑 *LILLY [Dev: rizad]*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *WhatsAsena*:  ```" + msg + "```"
+    return "⏺️ *LILLY [Dev: rizad]*:  ```" + msg + "```"
 }
-
 
 module.exports = {
     successfullMessage,
