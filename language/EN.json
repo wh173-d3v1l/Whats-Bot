@@ -187,7 +187,7 @@
             "TTS_DESC": "It converts text to sound.",
             "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
             "SONG_DESC": "Uploads the song you wrote.",
-            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naran```",
+            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.isong levitating```",
             "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "\n*Searching song please wait...*\n",
             "UPLOADING_SONG": "\n*0:35 ━❍──────── -5:32*\n*↻      ⊲        Ⅱ        ⊳       ↺*\n*VOLUME: ▁▂▃▄▅▆▇ 100%*\n*feel the music 🎧*\n",
