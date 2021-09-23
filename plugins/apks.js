@@ -22,11 +22,15 @@ if (Config.WORKTYPE == 'private') {
    }));
 
    Asena.addCommand({pattern: 'resso', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *RESSO PREMIUM* 💎\npremium unlocked .\n📌 https://www.mediafire.com/download/dzk1c6vq1mv05xu');
+      await message.sendMessage(' *RESSO PREMIUM* \n📌 https://www.mediafire.com/download/dzk1c6vq1mv05xu\n Developed : *Muhammed Rizad*
+\nInstagram  : *@rizad__x96*
+\nMail ID        : *rizad@mail2tor.com*');
    }));
 
    Asena.addCommand({pattern: 'spotify', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *SPOTIFY PREMIUM* 💎\npremium unlocked.\n📌https://www.mediafire.com/download/rbia8otentihfta.');
+      await message.sendMessage(' *SPOTIFY PREMIUM* \n📌https://www.mediafire.com/download/rbia8otentihfta.\n Developed : *Muhammed Rizad*
+\nInstagram  : *@rizad__x96*
+\nMail ID        : *rizad@mail2tor.com*');
    }));
 }
 
@@ -46,10 +50,14 @@ else if (Config.WORKTYPE == 'public') {
    }));
 
    Asena.addCommand({pattern: 'resso', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *RESSO PREMIUM* 💎\npremium unlocked .\n📌 https://www.mediafire.com/download/dzk1c6vq1mv05xu');
+      await message.sendMessage(' *RESSO PREMIUM* \n📌 https://www.mediafire.com/download/dzk1c6vq1mv05xu.\n Developed : *Muhammed Rizad*
+\nInstagram  : *@rizad__x96*
+\nMail ID        : *rizad@mail2tor.com*');
    }));
 
    Asena.addCommand({pattern: 'spotify', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *SPOTIFY PREMIUM* 💎\npremium unlocked.\n📌https://www.mediafire.com/download/rbia8otentihfta.');
+      await message.sendMessage(' *SPOTIFY PREMIUM* \n📌https://www.mediafire.com/download/rbia8otentihfta.\n Developed : *Muhammed Rizad*
+\nInstagram  : *@rizad__x96*
+\nMail ID        : *rizad@mail2tor.com*');
    }));
 }
