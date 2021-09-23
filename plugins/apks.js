@@ -8,8 +8,8 @@ const fs = require('fs');
 
 if (Config.WORKTYPE == 'private') {
 
-   Asena.addCommand({pattern: 'riza', fromMe: true}, (async (message, match) => {
-      await message.sendMessage('Gold Modz\n');
+   Asena.addCommand({pattern: 'rizad', fromMe: true}, (async (message, match) => {
+      await message.sendMessage('Master Is Offline\n');
    }));
 
    Asena.addCommand({pattern: 'fatp', fromMe: false}, (async (message, match) => {        
