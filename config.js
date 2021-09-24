@@ -16,7 +16,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    NAME: 'TOXIC MOL',
+    NAME: 'LILLY MOL',
     INSTAGRAM: 'https://instagram.com/rizad__x96',
     SESSION: process.env.TOXIC_SESSION === undefined ? '' : process.env.TOXIC_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
@@ -32,7 +32,7 @@ module.exports = {
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-    BOTPLK: process.env.BOT_NAME === undefined ? '💘TOXIC MOL💘' : process.env.BOT_NAME,
+    BOTPLK: process.env.BOT_NAME === undefined ? '💘LILLY MOL💘' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
@@ -47,7 +47,7 @@ module.exports = {
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
-    TAGPLK: process.env.TAG_HEADER === undefined ? 'TOXIC MOL' : process.env.TAG_HEADER,
+    TAGPLK: process.env.TAG_HEADER === undefined ? 'LILLY MOL' : process.env.TAG_HEADER,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     MAHN: process.env.MAAN === undefined ? '91**********,0' : process.env.MAAN,
