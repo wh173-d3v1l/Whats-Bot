@@ -121,7 +121,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "Toxic mwol Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "LILLY MOL Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
