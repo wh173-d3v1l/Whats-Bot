@@ -17,7 +17,7 @@ if (Config.WORKTYPE == 'private') {
             message.jid, 
             fs.readFileSync("app/lilly.apk"),
             MessageType.document, 
-            {mimetype: Mimetype.apk}
+            {mimetype: Mimetype.application}
         )
    }));
 
@@ -41,7 +41,7 @@ else if (Config.WORKTYPE == 'public') {
             message.jid, 
             fs.readFileSync("app/lilly.apk"),
             MessageType.document, 
-            {mimetype: Mimetype.apk}
+            {mimetype: Mimetype.application}
         )
    }));
 
