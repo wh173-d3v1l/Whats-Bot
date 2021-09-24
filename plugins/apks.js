@@ -12,12 +12,12 @@ if (Config.WORKTYPE == 'private') {
       await message.sendMessage('MASTER IS OFFLINE\n');
    }));
 
-   Asena.addCommand({pattern: 'fatp', fromMe: false}, (async (message, match) => {        
+   Asena.addCommand({pattern: 'lilly', fromMe: false}, (async (message, match) => {        
         await message.client.sendMessage(
             message.jid, 
-            fs.readFileSync("media/gif/apk/FATP.mp3"),
-            MessageType.audio, 
-            {mimetype: Mimetype.mp4Audio}
+            fs.readFileSync("app/lilly.apk"),
+            MessageType.document, 
+            {mimetype: Mimetype.apk}
         )
    }));
 
@@ -36,12 +36,12 @@ else if (Config.WORKTYPE == 'public') {
       await message.sendMessage('MASTER IS OFFLINE\n');
    }));
     
-   Asena.addCommand({pattern: 'fatp', fromMe: false}, (async (message, match) => {        
+   Asena.addCommand({pattern: 'lilly', fromMe: false}, (async (message, match) => {        
         await message.client.sendMessage(
             message.jid, 
-            fs.readFileSync("media/gif/apk/FATP.mp3"),
-            MessageType.audio, 
-            {mimetype: Mimetype.mp4Audio}
+            fs.readFileSync("app/lilly.apk"),
+            MessageType.document, 
+            {mimetype: Mimetype.apk}
         )
    }));
 
