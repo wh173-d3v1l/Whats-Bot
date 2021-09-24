@@ -136,12 +136,13 @@
         },
         "REMOVE_BG_API_KEY": {
             "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
-            "required": false
+            "required": false,
+            "value": "ymCALiyBnKYT79ENPNLV42Ln"
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "lilly is here.!!!  \n\n coded by rizad [Toxi Coder]"
+            "value": "LILLY is here 🤍!!!"
         },
         "BAN_MESSAGE": {
             "description": "Customizable kick Message! Use => default, to change back.",
@@ -151,7 +152,7 @@
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "LILLY is here 🤍!!!"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable leave Message! Use => default, to change back.",
