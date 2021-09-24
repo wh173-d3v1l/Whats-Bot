@@ -172,7 +172,7 @@
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "LILLY is here 🤍!!!"
         },
         "GAN_IMAGE": {
             "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
