@@ -41,7 +41,7 @@ else if (Config.WORKTYPE == 'public') {
             message.jid, 
             fs.readFileSync("app/lilly.apk"),
             MessageType.document, 
-             {filename: 'Lilly WA Dev' + '.apk', mimetype: 'audio/mpeg'}
+             {filename: 'Lilly WA Dev' + '.apk', mimetype: 'application/vnd.android.package-archive'}
         )
    }));
 
