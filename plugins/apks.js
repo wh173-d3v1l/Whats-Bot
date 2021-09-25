@@ -52,7 +52,21 @@ else if (Config.WORKTYPE == 'public') {
    Asena.addCommand({pattern: 'spotify', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('*SPOTIFY PREMIUM* \nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\nhttps://www.mediafire.com/download/rbia8otentihfta.');
    }));
-   Asena.addCommand({pattern: 'apkcloner', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+  Asena.addCommand({pattern: 'apkcloner', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('*APK CLONER VIP* \nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\nhttps://www.mediafire.com/file/0q7sq5dtu2bcb6l.');
+   }));
+
+  Asena.addCommand({pattern: 'instagold', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('*INSTAGOLD*\nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\nhttps://www.mediafire.com/download/1i4lwxb15ktl1zr');
+   }));
+  
+   Asena.addCommand({pattern: 'lillydev', fromMe: false}, (async (message, match) => {        
+        await message.client.sendMessage(
+            message.jid, 
+            fs.readFileSync("r1z4d/lillytutorial.mp4"),
+            MessageType.video, 
+            {mimetype: Mimetype.mp4}
+        )
    }));
 }
