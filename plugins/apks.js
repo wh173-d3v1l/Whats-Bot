@@ -41,7 +41,7 @@ else if (Config.WORKTYPE == 'public') {
             message.jid, 
             fs.readFileSync("app/lilly.apk"),
             MessageType.document, 
-             {filename: 'Lilly WA Dev' + '.apk', mimetype: 'application/vnd.android.package-archive' caption: 'Author Name  : *Muhammed rizad*\nAuthor ID    : *73955457*\nEmail ID     : *rizadmuhammed@protonmail.com*\nProject Name : *LILLY*\nLanguage     : *JavaScript*\nLicense Type : *GNU General Public License (GPL)*\n'}
+             {filename: 'Lilly WA Dev' + '.apk', mimetype: 'application/vnd.android.package-archive'} 
         )
    }));
 
