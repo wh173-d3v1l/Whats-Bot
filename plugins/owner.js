@@ -18,7 +18,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,' ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ *ʀɪᴢᴀᴅ (ᴛᴏxɪᴄ ᴄᴏᴅᴇʀ)* \nғᴏʀ ᴍᴏʀᴇ : rizad@mail2tor.com\n ' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Author Name  : *Muhammed rizad*\nAuthor ID    : *73955457*\nEmail ID     : *rizadmuhammed@protonmail.com\nProject Name : *LILLY*\nLicense Type : *GNU General Public License (GPL)*\n ' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
@@ -36,7 +36,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ *ʀɪᴢᴀᴅ (ᴛᴏxɪᴄ ᴄᴏᴅᴇʀ)* \nғᴏʀ ᴍᴏʀᴇ : rizad@mail2tor.com\n' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Author Name  : *Muhammed rizad*\nAuthor ID    : *73955457*\nEmail ID     : *rizadmuhammed@protonmail.com\nProject Name : *LILLY*\nLicense Type : *GNU General Public License (GPL)*\n' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
