@@ -2,14 +2,14 @@
     "name": "LILLY MOL",
     "description": "LILLY project - Makes it easy and fun to use Whatsapp. Developed by rizad",
     "logo": "https://j.top4top.io/p_2092uhkq40.jpg",
-    "keywords": ["whatsapp", "userbot", "rizad", "bot", "api", "ai"],
+    "keywords": ["whatsapp", "api", "ai"],
     "repository": "https://github.com/riz4d/Whats-Bot",
     "website":   "maintainence",
     "success_url": "maintainence",
     "stack": "container",
     "env": {
         "LILLY_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours RIZAD Session.",
+            "description": "Type here yours LILLY's Session [ start with RIZAD;;; .",
             "required": true
         },
         "SUDO": {
@@ -47,7 +47,7 @@
             "value": "rizad"
         },    
         "HANDLERS": {
-            "description": "Komutlar için. For commands.",
+            "description": "For commands.",
             "required": true,
             "value": "^[.!;]"
         },
@@ -87,7 +87,7 @@
             "value": "💘LILLY Mol💘"
         },
         "HEROKU_API_KEY": {
-            "description": "Herokuda API Keyiniz. Heroku API Key.",
+            "description": "Heroku API Key.",
             "required": true
         },
         "MUTE_MESSAGE": {
