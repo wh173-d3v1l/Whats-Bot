@@ -1,11 +1,7 @@
 # LILLY WA.
-<h2><center></font><marquee direction=left behavior=alternate scrollamount="5" scrolldelay="30"><font color="#FF0000" face="verdana"><font size=10 color="#FF0000"> <font face="Monospace" size="4" style="color: white; text-shadow: 0px 1px 12px aqua;background:url('http://shellerim.org/site-resimleri/yildiz.gif');">Watchout this tutorial to know how setup WHATSAPP USER BOT. </font></font></font></marquee>
-        </div><h2>
-<video width="340" height="260" controls>
-  <source src="tutorial.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video> 
+<a href="https://www.mediafire.com/file/9oqfannhh0dc5gj"><img alt="Download" src="https://img.shields.io/badge/Download-%23000000.svg?style=for-the-badge&logo=download&logoColor=white"/></a>
+
+
 <details>
     <summary>ʟɪᴄᴇɴsᴇ</b></summary><br/>
                                                         Apache License
