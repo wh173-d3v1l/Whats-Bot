@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
     var r_text = new Array ();
     
     
-    r_text[0] = "https://b.top4top.io/p_2070cvx9q0.jpg";
+    r_text[0] = "https://j.top4top.io/p_2092uhkq40.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -18,7 +18,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━ ᴄᴏᴅᴇᴅ ʙʏ ʀɪᴢᴀᴅ ━━━━━⛦
-ʜᴇʏ.., ɪ'ᴍ ᴀ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ.
+ʜᴇʏ.., ɪ'ᴍ ʟɪʟʟʏ ᴍᴏʟ.
   
 *https://instagram.com/rizad__x96*
 ■□■□■□■□■□■□■□■□■□■□
