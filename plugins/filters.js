@@ -48,7 +48,7 @@ Asena.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
     if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919895828468@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '918301824373@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
 const array = ['kalam']
@@ -117,7 +117,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '918301824373@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/rizadx.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['rizad','Rizad','apo','rishu','sad','list','love','menu','mute','lilly','mass','unmute','wait','adi','army','bye','najiya','sir','shadil','Aarulle','Anthas','Bot','Bro','Good bye','Da','Hehe','ah','Qr','by','ban','name entha','Helo','King',' no','pever','Potta','Serious','Soldier','Sry','Subscribe','thottu','Vada','vimanam','sorry','nanban','Lala','Smile','ghost','La be','Sad','Uff','Legend','music','Fek','Psycho','Town','Pwoli','Uyir','Malang','Bad','Boss','Thamasha','big fan','charlie','gd n8','kar98','love u','Endi','endi','noob','Poweresh','Perfect ok','perfect ok','power','sed bgm','Messi','hehe','Set aano','set aano','Bot myren','Venda','venda','chadhi','Chadhi','Hbday','hbday','R yyi padicho','Myre','myre','Oompi','oompi','parayatte','Fresh','fresh','Ok da','ok da','Feel aayi','feel aaayi','Scene','Ok bei','ok bei','Kozhi','kozhi','adi','kali','Kali','thantha','Thantha','Aysheri','aysheri','thot','Thot','sneham','Sneham','pm','Pm','paatt','Paatt','njan','Njan','life','Life','Killadi','killadi','good bye','evide','Evide','achan','Achan','broken','dora','nirthada','sugham','onn podo','chatho','lover','Lover','nanayikoode','Nanayikoode','Die','die','hate','Hate','nallath','Nallath','Neymer','neymer','patti','Patti','poora','Poora','Rohit','rohit','thall','Thall','Theri','theri','potte','Potte','Caption','caption','onn poyi','Onn poyi','problem','Problem','Master','Enthupatti','Kariyam','Sed','Song','song','Mm','Pennu','Para','Oh','Pilleru','Theapp','Kakka','Kollam','mathi','Music','music','Sana','Frd','Ponu','ponu','vannu','Mrng','mm','alive']
+const array = ['rizad','rishu','sad','list','love','lilly','mass','najiya','shadil','Serious','love','power','scene','alive','i love you']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -146,7 +146,7 @@ if(pattern.test(message.message)){
         if (!!message.mention && message.mention[0] == '918301824373@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/rizadx.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['ho','she','ra','mu','rishu','ta','Cr7','uyir','power','va','wow','se','no','nanba','sebin','messi','maman','pha','oi','cha','muth','kiss','dey','ga','player','king','kayari','aliya','nari','omban','Hii','Da','sad','nee','myre','mood','bg','chunk','ser','rizad','Rizad','sir','My','myr','umbi','bot','poda','git','alive','owner','neymar','list','help','oii','on','one','vanne','vannu','kozhi','set','Fuck','love','broke','ohoo','Bye','pne','left','don','onn','stop','setta','entry','muth','Hi','chaya']
+const array = ['rishu']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -174,7 +174,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '918301824373@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/rizad.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['love','list','machu','menu','mute','onn','oo','so','unmute','wait','adi','army','bye','chaya','edit','ip','kayari','mari','money','monu','nallath','night','nyt','on','patti','po','poth','sir','Amal','Hii','ee','Da','food','Hlo','para','love u','set','sed','jada','rizad','Rizad','Hi','sad','don','Loki','bye']
+const array = ['rizad']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
