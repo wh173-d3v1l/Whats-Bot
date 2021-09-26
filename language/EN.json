@@ -74,9 +74,9 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Toxic MWol",
-            "RESTART_MSG": "```Toxic MWol Restarting...please wait Bro 5mints...😌```",
-            "SHUTDOWN_DESC": "Shutdown Toxic MWol",
+            "RESTART_DESC": "Restart LILLY Mol",
+            "RESTART_MSG": "```LILLY Mol Restarting...please wait Bro 5mints...😌```",
+            "SHUTDOWN_DESC": "Shutdown LILLY MWol",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
@@ -109,14 +109,14 @@
             "WELCOME_ALREADY_SETTED": "*✅ Welcome message already set!*\n*Message:* ```",
             "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome WELCOME!```",
             "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
-            "WELCOME_SETTED": "*✅Toxic-Mol Welcome message has been set successfully ✅️*",
+            "WELCOME_SETTED": "*✅LILLY-Mol Welcome message has been set successfully ✅️*",
             "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
             "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​ ✅️ 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
             "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye Your Goodbye Message```",
             "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
             "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye Goodbye!```",
             "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
-            "GOODBYE_SETTED": "*✅Toxic-Mol Goodbye message has been setted successfully ✅️*"
+            "GOODBYE_SETTED": "*✅ LILLY-Mol Goodbye message has been setted successfully ✅️*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
@@ -130,7 +130,7 @@
         },
         "memes": {
             "MEMES_DESC": "Photo memes you replied to  allakil kalanjitt pooda.",
-            "NEED_REPLY": "*Reply to a photo! Allakil kalanjitt poo*",
+            "NEED_REPLY": "*Reply to a photo!*",
             "DOWNLOADING": "```Downloading media & making meme...```"
         },
         "log": {
@@ -229,14 +229,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Toxic-Mol bot is completely up-to-date!*",
-            "NEW_UPDATE": "*Toxic-Mol Update und for updating command*\n\n*.update now*\n\n*please ask supporting group before updating*\n\nhttps://chat.whatsapp.com/Lvtl7GqERfP19Na6M2wndX\n\nChanges:\n```",
+            "UPDATE": "*LILLY-Mol is completely up-to-date!*",
+            "NEW_UPDATE": "*LILLY-Mol Update und for updating command*\n\n*.update now*\n\n*please ask supporting group before updating*\n\nhttps://chat.whatsapp.com/Lvtl7GqERfP19Na6M2wndX\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "```Updating..please wait bro 5mins😊```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Updated 🧸✅  sanam set👍*",
             "UPDATED_LOCAL": "*✅ Successfully Updated 😍😍😍!*",
-            "AFTER_UPDATE": "*💘 Toxic-Mol Restarting  please wait 5mints*"
+            "AFTER_UPDATE": "*💘 LILLY-Mol Restarting  please wait 5mints*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -483,7 +483,7 @@
             "SAVE_USAGE": "Reply a message and type .save or just use .save <Your note> without replying",
             "REPLY": "Please provide a note or reply to a message.",
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact Toxic developers.",
+            "UNSUCCESSFUL": "Could not add note, please try again later or contact LILLY developers",
             "DELETE_USAGE": "Deletes *all* your saved notes.",
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
