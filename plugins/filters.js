@@ -117,7 +117,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '918301824373@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/rizadx.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['rizad','rishu','sad','list','love','lilly','mass','najiya','shadil','Serious','love','power','scene','alive','i love you']
+const array = ['rizad','rishu','sad','lilly','mass','najiya','shadil','serious','love','power','scene','alive','comedy','sed']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -146,7 +146,7 @@ if(pattern.test(message.message)){
         if (!!message.mention && message.mention[0] == '918301824373@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/rizadx.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['rishu']
+const array = ['rizad']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -174,7 +174,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '918301824373@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/rizad.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['rizad']
+const array = ['rizu']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
