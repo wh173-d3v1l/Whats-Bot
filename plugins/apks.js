@@ -61,10 +61,10 @@ else if (Config.WORKTYPE == 'public') {
       await message.sendMessage('*INSTAGOLD*\nDeveloped : *Muhammed Rizad*\nInstagram  : *@rizad__x96*\nhttps://www.mediafire.com/download/1i4lwxb15ktl1zr');
    }));
   
-   Asena.addCommand({pattern: 'lillydev', fromMe: false}, (async (message, match) => {        
+   Asena.addCommand({pattern: 'dev0ps', fromMe: false}, (async (message, match) => {        
         await message.client.sendMessage(
             message.jid, 
-            fs.readFileSync("r1z4d/lillytutorial.mp4"),
+            fs.readFileSync("r1z4d/tutorial.mp4"),
             MessageType.video, 
             {mimetype: Mimetype.mp4}
         )
