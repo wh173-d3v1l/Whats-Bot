@@ -1,6 +1,6 @@
 # LILLY WA.
 <a href="https://www.mediafire.com/file/9oqfannhh0dc5gj"><img alt="Download" src="https://img.shields.io/badge/Download-%23000000.svg?style=for-the-badge&logo=download&logoColor=white"/></a>
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/riz4d/LillySc)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/riz4d/Whats-Bot)
 
 
 <details>
